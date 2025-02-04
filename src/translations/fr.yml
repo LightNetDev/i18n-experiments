@@ -3,46 +3,48 @@
 # of the homepage
 # https://github.com
 custom.site.title: Sk8 Ministries
+# new key
+some.new.key: nouvelle clé
 # Main menu link to the LightNet homepage
-custom.navigation.about-lightnet: About LightNet
+custom.navigation.about-lightnet: À propos de LightNet
 # Main menu link to the about page of this site
-custom.navigation.about: About
+custom.navigation.about: À propos de
 # The ministry's slogan that will appear on the header below
 # the ministry name
-custom.ministry.slogan: Living faith, building community
+custom.ministry.slogan: Vivre la foi, construire la communauté
 # Title of the latest books section
-custom.home.our-latest-books: Our latest Books
+custom.home.our-latest-books: Nos derniers livres
 # Title of the BBQ highlight section
-custom.home.bbq.title: Skate, BBQ & Faith
+custom.home.bbq.title: Patinage, barbecue et foi
 # Description of the BBQ highlight section
-custom.home.bbq.text: Join us for our next community meeting! Enjoy a BBQ, skate with friends, and engage in meaningful conversations about Jesus. Don’t miss this opportunity to connect, skate, and grow in faith together. All skill levels welcome!
+custom.home.bbq.text: Rejoignez-nous pour notre prochaine réunion de communauté! Profitez d'un barbecue, patinez avec vos amis et engagez des conversations significatives sur Jésus. Ne manquez pas cette occasion de vous connecter, de patiner et de croître dans la foi ensemble. Tous les niveaux de compétence sont les bienvenus !
 # Button text fo the Sign Up button on the bbq highlight section.
-custom.home.bbq.sign-up-now: Sign Up Now
+custom.home.bbq.sign-up-now: S'inscrire maintenant
 # Category name "Biography"
-custom.category.biography: Biography
+custom.category.biography: Biographie
 # Category name "Christian Living"
-custom.category.christian-living: Christian Living
+custom.category.christian-living: Vie chrétienne
 # Category name "Comics"
-custom.category.comics: Comics
+custom.category.comics: BD
 # Category name "Family"
-custom.category.family: Family
+custom.category.family: Famille
 # Category name "Kids"
-custom.category.kids: Kids
+custom.category.kids: Enfants
 # Category name "Life Support"
-custom.category.life-support: Life Support
+custom.category.life-support: Soutien à la vie
 # Category name "Novels"
 custom.category.novels: Novels
 # Category name "Studies"
-custom.category.studies: Studies
+custom.category.studies: Etudes
 # Category name "Teens"
-custom.category.teens: Teens
+custom.category.teens: Adolescent
 # Category name "Theology"
-custom.category.theology: Theology
+custom.category.theology: Théologie
 # Type name "Book"
-custom.type.book: Book
+custom.type.book: Réserver
 # Type name "Video"
-custom.type.video: Video
+custom.type.video: Vidéo
 # Button label to read a book
-custom.details.action.read: Read
+custom.details.action.read: Lu
 # Button label to watch a video
-custom.details.action.watch: Watch
+custom.details.action.watch: Regarder
