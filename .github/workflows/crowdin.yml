@@ -3,6 +3,7 @@ name: Crowdin Action
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   synchronize-with-crowdin:
@@ -12,7 +13,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: crowdin action
+      - name: Pre-translate
+        uses: crowdin/github-action@v2
+        with:
+          command: "pre-translate"
+          command_args: "--language uk --method tm"
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Create Pull request
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
