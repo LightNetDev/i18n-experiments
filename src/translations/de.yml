@@ -5,6 +5,8 @@
 custom.site.title: Sk8 Ministries
 # new key
 some.new.key: neuer Schlüssel
+# This is the description of the LightNet framework
+lightnet.description: LightNet ist ein Werkzeug zur Erstellung digitaler Medienbibliotheken.
 # Main menu link to the LightNet homepage
 custom.navigation.about-lightnet: Über LightNet
 # Main menu link to the about page of this site
