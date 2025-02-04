@@ -1,7 +1,6 @@
 # This is the name of the ministry.
 # It will show on the header bar and the hero image
 # of the homepage
-# https://github.com
 custom.site.title: Sk8 Ministries
 # Main menu link to the LightNet homepage
 custom.navigation.about-lightnet: About LightNet
