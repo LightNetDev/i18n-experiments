@@ -12,22 +12,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Create Pull request
+      - name: Pre-translate
         uses: crowdin/github-action@v2
         with:
           command: "pre-translate"
           command_args: "--method tm --no-progress -v"
-          upload_sources: true
           upload_translations: true
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Create Pull request
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
           download_translations: true
           create_pull_request: true
         env:
           # A classic GitHub Personal Access Token with the 'repo' scope selected (the user should have write access to the repository).
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
           # A numeric ID, found at https://crowdin.com/project/<projectName>/tools/api
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-
           # Visit https://crowdin.com/settings#api-key to create this token
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
