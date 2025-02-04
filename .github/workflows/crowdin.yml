@@ -30,7 +30,7 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: "pre-translate"
-          command_args: "--language all --method mt --no-progress -v"
+          command_args: "--language all --method ai --no-progress -v"
 
       - name: Download translations
         uses: crowdin/github-action@v2
