@@ -16,7 +16,7 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: "pre-translate"
-          command_args: "--method tm --no-progress -v"
+          command_args: "--language de --method tm --no-progress -v"
           upload_translations: true
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
