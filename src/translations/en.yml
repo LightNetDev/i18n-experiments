@@ -6,6 +6,9 @@ custom.site.title: Sk8 Ministries
 # A new translations
 new.translation: Some new key
 
+# some translation
+some.translation: Some new translation
+
 # Main menu link to the LightNet homepage
 custom.navigation.about-lightnet: About LightNet
 
