@@ -12,15 +12,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Pre-translate
-        uses: crowdin/github-action@v2
-        with:
-          command: "pre-translate"
-          command_args: "--language de --method tm --no-progress -v"
-          upload_translations: true
-        env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      # - name: Pre-translate
+      #   uses: crowdin/github-action@v2
+      #   with:
+      #     command: "pre-translate"
+      #     command_args: "--language de --method tm --no-progress -v"
+      #     upload_translations: true
+      #   env:
+      #     CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+      #     CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
       - name: Create Pull request
         uses: crowdin/github-action@v2
