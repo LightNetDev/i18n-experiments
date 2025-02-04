@@ -2,9 +2,10 @@
 import lightnetDecapAdmin from "@lightnet/decap-admin"
 import { defineConfig } from "astro/config"
 import lightnet from "lightnet"
+import YAML from 'yaml'
 
-import deTranslations from "./src/translations/de.json"
-import enTranslations from "./src/translations/en.json"
+import deTranslations from "./src/translations/de.yaml?raw"
+import enTranslations from "./src/translations/en.yaml?raw"
 
 /**
  * Defines the available languages for the site, covering both
@@ -16,13 +17,13 @@ const languages = [
   {
     code: "en", // BCP47 language code for English
     label: "English", // Name displayed in the language selector
-    translations: enTranslations, // UI translations for English
+    translations: YAML.parse(enTranslations), // UI translations for English
     isDefaultLocale: true, // Sets English as the default language
   },
   {
     code: "de", // BCP47 language code for German
     label: "Deutsch", // Display name for German
-    translations: deTranslations, // UI translations for German
+    translations: YAML.parse(deTranslations), // UI translations for German
   },
 ]
 

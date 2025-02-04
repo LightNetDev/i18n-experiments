@@ -1,0 +1,68 @@
+# This is the name of the ministry.
+# It will show on the header bar and the hero image
+# of the homepage
+custom.site.title: Sk8 Ministries
+
+# Main menu link to the LightNet homepage
+custom.navigation.about-lightnet: Über LightNet
+
+# Main menu link to the about page of this site
+custom.navigation.about: Über uns
+
+# The ministry's slogan that will appear on the header below
+# the ministry name
+custom.ministry.slogan: Glauben leben, Gemeinschaft bauen
+
+# Title of the latest books section
+custom.home.our-latest-books: Unsere neuesten Bücher
+
+# Title of the BBQ highlight section
+custom.home.bbq.title: Skaten, Grillen & Glaube
+
+# Description of the BBQ highlight section
+custom.home.bbq.text: Komm zu unserem nächsten Gemeinschaftstreffen! Genieße ein BBQ, skate mit Freunden und führe bedeutungsvolle Gespräche über Jesus. Verpasse nicht die Gelegenheit, dich zu vernetzen, zu skaten und gemeinsam im Glauben zu wachsen. Alle Fähigkeiten sind willkommen!
+
+# Button text fo the Sign Up button on the bbq highlight section.
+custom.home.bbq.sign-up-now: Jetzt anmelden
+
+# Category name "Biography"
+custom.category.biography: Biografie
+
+# Category name "Christian Living"
+custom.category.christian-living: Christliches Leben
+
+# Category name "Comics"
+custom.category.comics: Comics
+
+# Category name "Family"
+custom.category.family: Familie
+
+# Category name "Kids"
+custom.category.kids: Kinder
+
+# Category name "Life Support"
+custom.category.life-support: Lebenshilfe
+
+# Category name "Novels"
+custom.category.novels: Romane
+
+# Category name "Studies"
+custom.category.studies: Studien
+
+# Category name "Teens"
+custom.category.teens: Jugendliche
+
+# Category name "Theology"
+custom.category.theology: Theologie
+
+# Type name "Book"
+custom.type.book: Buch
+
+# Type name "Video"
+custom.type.video: Video
+
+# Button label to read a book
+custom.details.action.read: Lesen
+
+# Button label to watch a video
+custom.details.action.watch: Anschauen
