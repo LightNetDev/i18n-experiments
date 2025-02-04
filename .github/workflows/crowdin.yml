@@ -30,7 +30,7 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: "pre-translate"
-          command_args: "--method mt --engine-id 554217 --no-progress"
+          command_args: "--method ai --ai-prompt 129657 --no-progress"
 
       - name: Download translations
         uses: crowdin/github-action@v2
