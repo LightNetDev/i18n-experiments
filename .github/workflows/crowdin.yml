@@ -21,10 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Upload sources
+      - name: Upload
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
+          upload_translations: true
 
       - name: Pre-translate
         uses: crowdin/github-action@v2
