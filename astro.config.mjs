@@ -4,8 +4,8 @@ import { defineConfig } from "astro/config"
 import lightnet from "lightnet"
 import YAML from 'yaml'
 
-import deTranslations from "./src/translations/de.yaml?raw"
-import enTranslations from "./src/translations/en.yaml?raw"
+import deTranslations from "./src/translations/de.yml?raw"
+import enTranslations from "./src/translations/en.yml?raw"
 
 /**
  * Defines the available languages for the site, covering both
