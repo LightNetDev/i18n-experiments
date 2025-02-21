@@ -1,0 +1,59 @@
+# This is the name of the ministry.
+# It will show on the header bar and the hero image
+# of the homepage
+# https://github.com
+custom.site.title: Sk8 Ministries
+key_zero: "zero"
+key_one: "singolare"
+key_many: "molti"
+key2:
+  zero: "zero"
+  one: "singolare"
+  many: "molti"
+# new key during our meeting
+meeting: Ci incontriamo e parliamo di internazionalizzazione.
+# This is the description of the LightNet framework
+lightnet.description: LightNet è uno strumento per creare biblioteche di media digitali.
+# Main menu link to the LightNet homepage
+custom.navigation.about-lightnet: Informazioni su LightNet
+# Main menu link to the about page of this site
+custom.navigation.about: Informazioni
+# The ministry's slogan that will appear on the header below
+# the ministry name
+custom.ministry.slogan: Vivere la fede, costruire una comunità
+# Title of the latest books section
+custom.home.our-latest-books: I nostri ultimi libri
+# Title of the BBQ highlight section
+custom.home.bbq.title: Skate, BBQ & Fede
+# Description of the BBQ highlight section
+custom.home.bbq.text: Unisciti a noi per il nostro prossimo incontro comunitario! Goditi un BBQ, pattina con gli amici e partecipa a conversazioni significative su Gesù. Non perdere questa opportunità di connetterti, pattinare e crescere insieme nella fede. Tutti i livelli di abilità sono benvenuti!
+# Button text fo the Sign Up button on the bbq highlight section.
+custom.home.bbq.sign-up-now: Iscriviti ora
+# Category name "Biography"
+custom.category.biography: Biografia
+# Category name "Christian Living"
+custom.category.christian-living: Christian Living
+# Category name "Comics"
+custom.category.comics: Fumetti
+# Category name "Family"
+custom.category.family: Famiglia
+# Category name "Kids"
+custom.category.kids: Bambini
+# Category name "Life Support"
+custom.category.life-support: Supporto Vita
+# Category name "Novels"
+custom.category.novels: Romanzi
+# Category name "Studies"
+custom.category.studies: Studi
+# Category name "Teens"
+custom.category.teens: Adolescenti
+# Category name "Theology"
+custom.category.theology: Teologia
+# Type name "Book"
+custom.type.book: Libro
+# Type name "Video"
+custom.type.video: Video
+# Button label to read a book
+custom.details.action.read: Leggi
+# Button label to watch a video
+custom.details.action.watch: Osserva

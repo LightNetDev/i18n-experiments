@@ -3,6 +3,13 @@
 # of the homepage
 # https://github.com
 custom.site.title: Sk8 Ministries
+key_zero: "null"
+key_one: "Singular"
+key_many: "viele"
+key2:
+  zero: "null"
+  one: "eins"
+  many: "viele"
 # new key during our meeting
 meeting: Wir treffen uns und sprechen über die Internationalisierung.
 # This is the description of the LightNet framework
