@@ -6,18 +6,12 @@ custom.site.title: Sk8 Ministries
 
 key_zero: "zero"
 key_one: "singular"
-key_two: "two"
-key_few: "few"
 key_many: "many"
-key_other: "other"
 
 key2:
   zero: "zero"
   one: "singular"
-  two: "two"
-  few: "few"
   many: "many"
-  other: "other"
 
 # new key during our meeting
 meeting: We meet and talk about Internationalisation.
